@@ -37,7 +37,7 @@ export const routeItems = [
   { path: "/news", component: <News /> },
 ];
 
-export const footers = [
+export const footerItems = [
   { path: "/", text: "Home" },
   { path: "/exchanges", text: "Exchanges" },
   { path: "/news", text: "News" },

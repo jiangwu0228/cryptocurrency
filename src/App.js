@@ -3,7 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
 import Navbar from "./components/Navbar";
 import "./App.css";
-import { routeItems, footers } from "./config/pageConfig";
+import { routeItems, footerItems } from "./config/pageConfig";
 
 const App = () => {
   const { Title } = Typography;
@@ -13,7 +13,7 @@ const App = () => {
     );
   });
 
-  const footerItem = footers.map((footer, index) => {
+  const footerItem = footerItems.map((footer, index) => {
     return (
       <Link to={footer.path} key={index}>
         {footer.text}
