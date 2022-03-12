@@ -1,6 +1,5 @@
 import {
   HomeOutlined,
-  MoneyCollectOutlined,
   BulbOutlined,
   FundOutlined,
 } from "@ant-design/icons";
